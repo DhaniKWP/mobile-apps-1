@@ -67,5 +67,15 @@ void main(List<String> arguments) {
   //
   // void main() {
   //   setupCustomerOrder();
-  }
+  // }
+
+  // 2.6. Daftar Type Data
+  // 2.6.1. String data teks
+  // dipake pas buat nyimpen data yang berbentuk teks bukan angka
+  String namamobil = 'bmw';
+  String namanegara = 'RAJEG';
+  print(namamobil.toUpperCase()); // ini to uppercase biar jadi kapital semua
+  print(namanegara.toLowerCase()); // ini untuk jadiin angka kecil semua di convert
+
+
 }
