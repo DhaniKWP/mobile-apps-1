@@ -102,4 +102,16 @@ void main(List<String> arguments) {
 
   nilaiUjian = 85.5;   // diubah jadi double tanpa error
   print('Nilai setelah revisi: $nilaiUjian');
+
+  //2.6.5. bool — nilai benar atau salah
+  //nilai ini hanya bisa 2 kemungkinan aja true or false
+  bool rememberMe = true; // kalo di isi false bakal muncul yang di else
+
+  if (rememberMe) {
+    print('Sesi login disimpan di perangkat.');
+  } else {
+    print('Sesi login akan berakhir otomatis saat aplikasi ditutup.');
+  }
+
+  //
 }
