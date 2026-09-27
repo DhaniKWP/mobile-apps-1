@@ -94,4 +94,12 @@ void main(List<String> arguments) {
   //Suhu Badan / Cuaca
   double suhuBadan = 36.6;
   print('Suhu tubuh: $suhuBadan°C');
+
+  //2.6.4. num — bilangan umum
+  //untuk nilai yang belum dipastiin diawal bisa int atau double
+  num nilaiUjian = 80; // awalnya int
+  print('Nilai awal: $nilaiUjian');
+
+  nilaiUjian = 85.5;   // diubah jadi double tanpa error
+  print('Nilai setelah revisi: $nilaiUjian');
 }
