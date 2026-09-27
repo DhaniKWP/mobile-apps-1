@@ -170,4 +170,18 @@ void main(List<String> arguments) {
   //   formatDanPrint(15000.758);      // Output: Nilai Desimal: 15000.76
   //   formatDanPrint(50000);          // Output: Nominal Bulat: Rp50000
   // }
+
+  //10. dynamic — tipe dapat berubah-ubah
+
+  //jadi bedany object sama dynamic itu, kalo object itu wajib cek dlu tipe datanya apa , tapi klo dinamic dia bebas langsung manggil juga bisa
+    // map JSON yang menampung beragam tipe data
+    Map<String, dynamic> responseApi = {
+      'namaProduk': 'Seblak Komplit',
+      'stok': 25,
+      'tersedia': true,
+    };
+
+    dynamic infoStok = responseApi['stok'];
+    print('Stok saat ini: $infoStok');
+
 }
