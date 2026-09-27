@@ -36,11 +36,19 @@ void main(List<String> arguments) {
 
   print(namaFix);
 
-  //2.2. final dengan Tipe Eksplisit (Single Assignment / Runtime Constant)
+  //2.2. final dengan Tipe Eksplisit (Single Assignment / Runtime Constant) nilai yg udh dikasih final gabisa di ubah lgi
   final String userId = 'USR-88231';
   final String authToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...';
   final bool isEmailVerified = true;
 
   print('User $userId berhasil masuk dengan status verifikasi: $isEmailVerified');
   // userId = 'USR-00000'; // ERROR: Variabel final ga bisa diisi ulang, kalo dinilai di di taruh dibawah final String userId = 'USR-88231'; bakal eror
+
+  //2.3. const dengan Tipe Eksplisit (Compile-Time Constant)
+  //nilai ini dari awal ga bakal berubah karna udh di tentuin dluan dari awal hardcoded lah intinya
+
+  const String apiBaseUrl = 'https://api.warungseblak.com/v1';
+  const int apiTimeoutSeconds = 30; // Batas waktu tunggu koneksi (30 detik)
+
+
 }
