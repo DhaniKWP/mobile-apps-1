@@ -125,4 +125,16 @@ void main(List<String> arguments) {
   print('Kategori pertama : ${kategoriMenu[0]}'); //dimulai dari 0
   print('Total kategori   : ${kategoriMenu.length}'); //
   print('Semua kategori   : $kategoriMenu');
+
+  //2.6.7. Set — kumpulan data unik
+  //
+  Set<String> searchHistory = {'seblak', 'bakso', 'mie ayam'};
+
+  // user cari 'seblak' lagi tapi ga muncul lagi, karna nilai yg duplikat ga bakal masuk
+  searchHistory.add('seblak');
+  searchHistory.add('es teh');
+
+  print(searchHistory);
+
+  //8. Map — data dalam bentuk key dan value
 }
