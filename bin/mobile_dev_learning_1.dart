@@ -84,4 +84,14 @@ void main(List<String> arguments) {
   int poin = 1000;
   int jumlahMahasigma = 2103;
   print('Jumlah mahasiswa: $jumlahMahasigma');
+
+  //2.6.3. double — bilangan desimal
+  //cocok dipake untuk satuan ukuran / takaran / bobot (kg, gram, liter, meter, celsius).
+  //Satuan Ukuran: Takaran bahan atau berat barang
+  double beratKopi = 18.5; // dalam gram
+  print('Takaran kopi: $beratKopi gram');
+
+  //Suhu Badan / Cuaca
+  double suhuBadan = 36.6;
+  print('Suhu tubuh: $suhuBadan°C');
 }
