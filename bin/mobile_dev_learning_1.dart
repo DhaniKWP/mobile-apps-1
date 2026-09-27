@@ -77,5 +77,11 @@ void main(List<String> arguments) {
   print(namamobil.toUpperCase()); // ini to uppercase biar jadi kapital semua
   print(namanegara.toLowerCase()); // ini untuk jadiin angka kecil semua di convert
 
-
+  //2.6.2. int bilangan bulat
+  // int untuk memuat dari angka bukan teks
+  int jumlahMatkul = 20;
+  int nim = 5;
+  int poin = 1000;
+  int jumlahMahasigma = 2103;
+  print('Jumlah mahasiswa: $jumlahMahasigma');
 }
