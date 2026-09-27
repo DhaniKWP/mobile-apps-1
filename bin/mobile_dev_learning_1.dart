@@ -113,5 +113,16 @@ void main(List<String> arguments) {
     print('Sesi login akan berakhir otomatis saat aplikasi ditutup.');
   }
 
-  //
+  //2.6.6. List — kumpulan data berurutan
+  //cocok untuk Daftar notifikasi,kategori menu makanan, daftar opsi pilihan, keranjang belanja
+  // contoh: Kategori Menu Makanan
+  List<String> kategoriMenu = ['Makanan Berat', 'Minuman Dingin', 'Camilan'];
+
+  // menambah data baru
+  kategoriMenu.add('Paket Hemat');
+
+  // mengambil data lewat index
+  print('Kategori pertama : ${kategoriMenu[0]}'); //dimulai dari 0
+  print('Total kategori   : ${kategoriMenu.length}'); //
+  print('Semua kategori   : $kategoriMenu');
 }
