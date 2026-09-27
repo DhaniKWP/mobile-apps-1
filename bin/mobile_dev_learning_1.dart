@@ -50,5 +50,22 @@ void main(List<String> arguments) {
   const String apiBaseUrl = 'https://api.warungseblak.com/v1';
   const int apiTimeoutSeconds = 30; // Batas waktu tunggu koneksi (30 detik)
 
+  //2.5. late Modifier (Inisialisasi Tertunda)
 
+  // Variabel disiapkan di awal tanpa nilai
+  // late String customerName;
+  // late int tableNumber;
+  //
+  // void setupCustomerOrder() {
+  //   // Nilai baru diisi saat fungsi ini dipanggil
+  //   customerName = 'Budi Santoso';
+  //   tableNumber = 5;
+  //
+  //   // Aman dibaca karena sudah diisi di atas
+  //   print('Pesanan untuk Meja $tableNumber atas nama $customerName');
+  // }
+  //
+  // void main() {
+  //   setupCustomerOrder();
+  }
 }
