@@ -149,4 +149,25 @@ void main(List<String> arguments) {
   // Mengambil data berdasarkan key
   print('Selamat datang, ${userProfile['username']}!');
   print('Saldo: Rp${userProfile['balance']}');
+
+  //9. Object — induk dari hampir semua objek Dart
+  // void formatDanPrint(Object inputData) {
+  //   if (inputData is String) {
+  //     // Di dalam blok if ini, inputData otomatis dianggap String
+  //     print('Teks Kapital: ${inputData.toUpperCase()}');
+  //   } else if (inputData is double) {
+  //     // Di dalam blok if ini, inputData otomatis dianggap double
+  //     print('Nilai Desimal: ${inputData.toStringAsFixed(2)}');
+  //   } else if (inputData is int) {
+  //     print('Nominal Bulat: Rp$inputData');
+  //   } else {
+  //     print('Data tipe lain: $inputData');
+  //   }
+  // }
+  //
+  // void main() {
+  //   formatDanPrint('promo gajian'); // Output: Teks Kapital: PROMO GAJIAN
+  //   formatDanPrint(15000.758);      // Output: Nilai Desimal: 15000.76
+  //   formatDanPrint(50000);          // Output: Nominal Bulat: Rp50000
+  // }
 }
