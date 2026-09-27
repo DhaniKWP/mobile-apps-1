@@ -137,4 +137,16 @@ void main(List<String> arguments) {
   print(searchHistory);
 
   //8. Map — data dalam bentuk key dan value
+  // Simulasi respon JSON dari endpoint /api/user/profile
+  Map<String, dynamic> userProfile = {
+    'id': 101,
+    'username': 'dhani_dev',
+    'email': 'dhani@example.com',
+    'balance': 150000.50,
+    'is_verified': true,
+  };
+
+  // Mengambil data berdasarkan key
+  print('Selamat datang, ${userProfile['username']}!');
+  print('Saldo: Rp${userProfile['balance']}');
 }
